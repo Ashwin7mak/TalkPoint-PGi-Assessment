@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reverse Numbers</title>
+	</head>
+	<body>
+
+		<p>Click the button to reverse the order of the elements in the array.</p>
+
+		<button onclick="myFunction()">reverse list</button>
+
+		<p id="demo"></p>
+
+		<script>
+		var cities = ["Newyork", "Alabama","Illinios"];
+		document.getElementById("demo").innerHTML = cities;
+
+		function myFunction() {
+			cities.reverse();
+			document.getElementById("demo").innerHTML = cities;
+		}
+		</script>
+
+	</body>
+</html>

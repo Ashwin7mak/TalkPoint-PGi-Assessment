@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Number</title>
+	</head>
+	<body>
+
+		<p>Click the button to display a random number between 1 and 25.</p>
+
+		<button onclick="myFunction()">add random number</button>
+
+		<p id="demo"></p>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("demo")
+				x.innerHTML = Math.floor((Math.random() * 25) + 1);
+			}
+		</script>
+
+	</body>
+</html>

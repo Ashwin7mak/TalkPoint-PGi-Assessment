@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alphabetize</title>
+	</head>
+	<body>
+
+		<p>Click the button to arrange the elements alphabeticaly in the array.</p>
+
+		<button onclick="myFunction()">alphabetize</button>
+
+		<p id="demo"></p>
+
+		<script>
+			var cities = ["Newyork", "Alabama","Illinios"];
+			document.getElementById("demo").innerHTML = cities;
+
+			function myFunction() {
+				cities.sort();
+				document.getElementById("demo").innerHTML = cities;
+			}
+		</script>
+
+	</body>
+</html>
